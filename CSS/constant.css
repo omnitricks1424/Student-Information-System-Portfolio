@@ -1,0 +1,12 @@
+:root{
+	--uni-blue-1: #000072;
+	--uni-blue-2: #0101b2;
+ 	--uni-gray-1: #333;
+}
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
