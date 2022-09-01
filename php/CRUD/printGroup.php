@@ -7,10 +7,10 @@
         // Page header
         function Header(){
             // Logo
-            $this->Cell(50, 5, '', 0, 0);
-            $this->Image('../../IMG/logo.png', 35, 5, 25);
+            $this->Cell(70, 5, '', 0, 0);
+            $this->Image('../../img/favicon/android-chrome-512x512.png', 35, 5, 25);
             $this->SetFont('Arial','B',15);
-            $this->Cell(140, 10, 'CENTRAL COLLEGES OF THE PHILIPPINES', 0, 1,);
+            $this->Cell(120, 10, 'University Name Institute', 0, 1,);
             $this->Cell(70, 5, '', 0, 0);
             $this->Cell(120, 10, 'STUDENT INFORMATION', 0, 1,);
             $this->Ln(10);

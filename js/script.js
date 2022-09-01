@@ -342,7 +342,7 @@ $(document).ready(function(){
 
 
     // jQuery print all student information
-    var link = 'printGroup.php';
+    var link = 'php/CRUD/printGroup.php';
     $(".downloadAll").attr("href", link);
 
     
@@ -985,7 +985,7 @@ $(document).ready(function(){
         });
 
         
-        var link = 'printIndiv.php?id=' + id;
+        var link = 'php/CRUD/printIndiv.php?id=' + id;
         $(".download").attr("href", link);
     });
 
